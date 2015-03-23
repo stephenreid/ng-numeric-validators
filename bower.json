@@ -1,0 +1,24 @@
+{
+  "name": "ng-numeric-validators",
+  "version": "0.0.1",
+  "homepage": "https://github.com/stephenreid/ng-numeric-validators",
+  "authors": [
+    "stephenreid@ratedsar.com"
+  ],
+  "description": "Adds ng-min and ng-max directives to angular for normal form validation",
+  "main": "ng-numeric-validators.js",
+  "keywords": [
+    "ng-min",
+    "ng-max",
+    "validation"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
