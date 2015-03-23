@@ -6,7 +6,8 @@ Numeric validators for angular.
 bower install https://github.com/stephenreid/ng-numeric-validators.git
 ```
 update your index.html with (if your gruntfile doesn't do this for you)
-```
+
+```html
 <script src="bower_components/ng-numeric-validators/ng-numeric-validators.js"></script>
 ```
 
@@ -14,7 +15,7 @@ update your index.html with (if your gruntfile doesn't do this for you)
 Add ng-min and / or ng-max to your standard inputs with type="number"
 
 The following example will not be valid with a value < 1 or > 4
-```
+```html
 <input type="number" ng-min="1" ng-max="4">
 ```
 
