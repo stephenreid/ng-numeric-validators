@@ -1,2 +1,4 @@
 # ng-numeric-validators
-Numerica validators for angular.
+Numeric validators for angular.
+
+Based on the artcile avaialble at http://web-profile.com.ua/angularjs/dev/angularjs-ng-min-ng-max/
