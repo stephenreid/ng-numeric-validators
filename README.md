@@ -3,7 +3,10 @@ Numeric validators for angular.
 
 Add ngmin and ngmax to a standard number input. Validated by $valid.
 
+[![Build Status](https://travis-ci.org/stephenreid/ng-numeric-validators.svg?branch=master)](https://travis-ci.org/stephenreid/ng-numeric-validators)
+
 ### Installation
+
 ```bash
 npm install
 bower install https://github.com/stephenreid/ng-numeric-validators.git
@@ -28,4 +31,6 @@ To test, run
 ```bash
 grunt test
 ```
-Based on the artcile avaialble at http://web-profile.com.ua/angularjs/dev/angularjs-ng-min-ng-max/
+
+
+Based on the artcile available at http://web-profile.com.ua/angularjs/dev/angularjs-ng-min-ng-max/
