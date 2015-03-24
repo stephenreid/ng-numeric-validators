@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en' ng-app='app'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../ng-numeric-validators.js"></script>
+
+    <script src="app.js"></script>
+    <base href='/'>
+  </head>
+  <body ng-controller='ValidatorsController'>
+    <div class="box box-primary ng-cloak">
+      <form name="myForm" ng-submit="submitted(myForm)">
+        <fieldset class="form-group">
+          <legend>ng min >= 0</legend>
+          <input type="number" ng-model="value" name="value" ng-min="0">
+          
+          <p>value.$pristine = {{myForm.value.$pristine}}</p> 
+          <p>value.$valid = {{myForm.value.$valid}}</p>
+        </fieldset>
+        <fieldset>
+          <legend>ng max <= 1</legend>
+          <input type="number" ng-max="1" name="maxvalue" ng-model="maxvalue">
+          <p>value.$pristine = {{myForm.maxvalue.$pristine}}</p> 
+          <p>value.$valid = {{myForm.maxvalue.$valid}}</p>
+        </fieldset>
+        <fieldset>
+          <legend>Form Validity</legend>
+
+          <p>form.$pristine = {{myForm.$pristine}}</p> 
+          <p>form.$valid = {{myForm.$valid}}</p>
+        </fieldset>
+      </form>
+      </div>
+    </div>
+  </body>
+</html>
