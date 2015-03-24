@@ -1,8 +1,10 @@
+var app = angular.module('ngNumericValidators', []);
+
 function isEmpty(value) {
     return angular.isUndefined(value) || value === '' || value === null || value !== value;
 }
- 
-angular.directive('ngMin', function () {
+
+app.directive('ngMin', function () {
     return {
         restrict: 'A',
         require: 'ngModel',
@@ -26,8 +28,8 @@ angular.directive('ngMin', function () {
         }
     };
 });
- 
-angular.directive('ngMax', function () {
+
+app.directive('ngMax', function () {
     return {
         restrict: 'A',
         require: 'ngModel',

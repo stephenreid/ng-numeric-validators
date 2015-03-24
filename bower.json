@@ -20,5 +20,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "latest",
+    "angular-mocks": "latest"
+  }
 }
